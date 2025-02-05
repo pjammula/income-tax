@@ -5,7 +5,7 @@ export const calculateIncomeTax = (income: number): number => {
 
   // New Tax Slabs for 2025
   if (income <= 400000) {
-    taxAmount = 0; // Nil tax for income up to 4 lakh
+    taxAmount = 0; // Nil tax for income up to 4 lakh.
   } else if (income <= 800000) {
     taxAmount = (income - 400000) * 0.05; // 5% tax for income between 4-8 lakh
   } else if (income <= 1200000) {
