@@ -3,7 +3,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import Calculator from "./components/Calculator";
-import Search from "./components/Search";
 
 const App: React.FC = () => {
   return (
@@ -29,7 +28,6 @@ const App: React.FC = () => {
         />
       </Helmet>
 
-      <Search />
       <Calculator />
     </div>
   );
