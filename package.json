@@ -6,7 +6,8 @@
   "scripts": {
     "clean": "del /q /f tsconfig.tsbuildinfo && rmdir /s /q dist",
     "dev": "vite",
-    "build": "npm run clean && tsc -b && vite build",
+    "build": "tsc -b && vite build",
+    "clean:build": "npm run clean && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
